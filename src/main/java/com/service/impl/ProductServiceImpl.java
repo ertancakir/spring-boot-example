@@ -16,11 +16,6 @@ import java.util.List;
 @Transactional
 public class ProductServiceImpl implements ProductService {
 
-    /*
-    * Bu class ın değişmesi gerekiyor
-    * Mapping işlemleri controller a alınmalı
-    * Bu classtan controller ve repositorylere entity gönderilmeli*/
-
     @Autowired
     ProductRepository repository;
 
